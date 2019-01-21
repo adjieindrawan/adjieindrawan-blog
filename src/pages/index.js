@@ -30,7 +30,7 @@ const Hero = styled.div`
   }
 
   p {
-    font-size: 1.68rem;
+    font-size: 24px;
     margin-top: -1rem;
     @media (max-width: ${props => props.theme.breakpoints.phone}) {
       font-size: 1.25rem;
@@ -51,8 +51,9 @@ const IndexPage = ({
       <Hero>
         <h1>Hi.</h1>
         <p>
-          I&apos;m John Doe, a Senior UX Developer with five years of industry experience, specializing in developing
-          React apps with the best UX users can get.
+          I&apos;m Adjie Indrawan, a Senior UI/UX Designer - Engineer with six years of industry experience, i&apos;m
+          experts in web & app design, web & app development and specializing in developing React with the best UX users
+          can get.
         </p>
         <Link to="/contact">
           <Button big>
